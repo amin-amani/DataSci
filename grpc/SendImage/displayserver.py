@@ -27,8 +27,8 @@ ImageTransfer_pb2_grpc.add_ImageProcedureServicer_to_server(
         ImageProcedureServicer(), server)
 
 # listen on port 5005
-print('Starting server. Listening on port 5005.')
-server.add_insecure_port('[::]:5005')
+print('Starting server. Listening on port 50050.')
+server.add_insecure_port('[::]:50050')
 server.start()
 
 try:
